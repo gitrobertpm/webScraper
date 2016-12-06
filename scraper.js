@@ -2,8 +2,8 @@
  Treehouse Web Scraper Proj
 
  I chose to use the 'scrapeIt' and 'json2csv' modules to do my scraping and create my CSV
- becuase they were well document, had a good number of downlaods without having too many number open issues,
- but mostly I used these two because they were well documented and I was able to figure out how to make them work!  :)
+ becuase they were well documented and had a good number of downlaods without having too many open issues,
+ but mostly I used these two because I was able to figure out how to make them work!  :)
  
 */
 

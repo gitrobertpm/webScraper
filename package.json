@@ -1,0 +1,27 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "Treehouse FSJS proj #6",
+  "main": "scraper.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "colors": "^1.1.2",
+    "json2csv": "^3.7.2",
+    "node-schedule": "^1.2.0",
+    "scrape-it": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node scraper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitrobertpm/webScraper.git"
+  },
+  "author": "Robert Manolis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitrobertpm/webScraper/issues"
+  },
+  "homepage": "https://github.com/gitrobertpm/webScraper#readme"
+}

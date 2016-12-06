@@ -1,5 +1,10 @@
 /*
-Treehouse Web Scraper Proj
+ Treehouse Web Scraper Proj
+
+ I chose to use the 'scrapeIt' and 'json2csv' modules to do my scraping and create my CSV
+ becuase they were well document, had a good number of downlaods without having too many number open issues,
+ but mostly I used these two because they were well documented and I was able to figure out how to make them work!  :)
+ 
 */
 
 "use strict";
@@ -12,24 +17,6 @@ const scrapeIt = require("scrape-it");
 const async = require("async");
 const json2csv = require('json2csv');
 const schedule = require('node-schedule');
-
-
-// Problem: Uses third praty library to scrapes daily data from website and stores data into CSV file created by third party library
-//Solution: 
-// - runs every day
-// - creates "data" folder if it doesn't exist
-
-// - use third party library to scrape - why this one?
-// - scrape http://shirts4mike.com
-	// 
-// - get price, title, url, image from product page and save to CSV
-
-// - store data in CSV file nemd for the date, use third party library for creating CSV - why?
-// - column headers - title, price, imageURL, URl, and time of scrapping
-// - error if sight is down
-// - overwrite current data if exsts
-// - well documented
-
 
 const mainURL = "http://shirts4mike.com";
 const mainURI = "/shirts.php";
